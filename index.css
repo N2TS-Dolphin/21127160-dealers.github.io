@@ -1,0 +1,336 @@
+body {
+  background-color: #e8eff0;
+}
+
+@font-face {
+  font-family: "Yellowtail";
+  src: url("./Font/Yellowtail-Regular.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "HelveticaRegular";
+  src: url("./Font/Helvetica.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HelveticaNeueBold";
+  src: url("./Font/HelveticaNeue/HelveticaNeueBold/HelveticaNeueBold.ttf")
+    format("truetype");
+}
+
+.logo-dealers {
+  margin: 0px;
+  color: #000;
+  font-family: Yellowtail;
+  font-size: 88.92px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  position: fixed;
+  top: 38px;
+  left: 223px;
+}
+
+.main-menu {
+  position: fixed;
+  top: 147px;
+  left: 218px;
+}
+
+#image-menu {
+  width: 1px;
+  height: 13px;
+
+  position: fixed;
+  top: 150px;
+}
+
+#text-menu {
+  margin: 0px;
+  color: #4b4b4b;
+  font-family: HelveticaRegular;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  position: fixed;
+  top: 147px;
+}
+
+.mail-box {
+  margin: 0px;
+  width: 480px;
+  height: 131px;
+
+  background-color: #fcfcfc;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e2e2e2;
+
+  position: fixed;
+  top: 46px;
+  left: 701px;
+}
+
+#top-stripe {
+  margin: 0px;
+  padding: 1px;
+  padding-bottom: 0px;
+}
+
+#sign-up {
+  margin: 0px;
+
+  font-family: HelveticaRegular;
+  color: #000;
+  font-size: 17.23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  position: fixed;
+  top: 74px;
+  left: 720px;
+}
+
+.enter-border {
+  margin: 0px;
+
+  width: 297px;
+  height: 36px;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5e5e5;
+
+  position: fixed;
+  top: 116px;
+  left: 722px;
+}
+
+#enter-text {
+  display: block;
+  margin: 0px;
+
+  color: #e2e2e2;
+  font-family: HelveticaRegular;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  position: fixed;
+  top: 127px;
+  left: 733px;
+}
+
+#button-subcribe {
+  margin: 0px;
+  border: 1px;
+  border-radius: 4px;
+  background-image: linear-gradient(#bbc9d4, #8fa5b7);
+
+  color: #000;
+  font-family: HelveticaRegular;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  width: 124px;
+  height: 37px;
+
+  position: fixed;
+  top: 116px;
+  left: 1037px;
+}
+
+.body-dealers {
+  margin: 0px;
+
+  width: 960px;
+  height: 1273px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+
+  position: fixed;
+  top: 229px;
+  left: 223px;
+}
+
+#main-content {
+  margin: 0px;
+
+  color: #000;
+  font-family: HelveticaRegular;
+  font-size: 31.46px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  position: fixed;
+  top: 264px;
+  left: 255px;
+}
+
+#main-image {
+  margin: 0px;
+
+  background: #ef5741;
+  width: 566px;
+  height: 293px;
+
+  position: fixed;
+  top: 328px;
+  left: 261px;
+}
+
+.main-dealer {
+  margin: 0px;
+
+  width: 268px;
+  height: 365px;
+
+  position: fixed;
+  top: 260px;
+  left: 877px;
+}
+
+#main-dealer-context {
+  margin: 0px;
+
+  color: #a7a7a7;
+  font-family: HelveticaRegular;
+  font-size: 17.23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  width: 169px;
+  height: 20px;
+
+  position: fixed;
+  top: 288px;
+  left: 932px;
+}
+
+.button-main-dealer {
+  margin: 0px;
+
+  width: 270px;
+  height: 69px;
+
+  border-radius: 10px;
+  border: 1px solid #94af5b;
+  background: linear-gradient(#c8e086, #c8e086), #a4cd5c;
+
+  color: #5d7730;
+  font-family: HelveticaRegular;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  position: fixed;
+  top: 668px;
+  left: 880px;
+}
+
+.client-logo {
+  position: fixed;
+  top: 768px;
+  left: 257px;
+}
+
+.dealers-container {
+  display: grid;
+  grid-template-columns: 312px 1px 312px 1px 312px;
+
+  position: fixed;
+  top: 902px;
+  left: 231px;
+}
+
+#dealer-item-1 {
+  display: grid;
+}
+
+#deal-1 {
+  margin: 0px;
+
+  width: 178px;
+  height: 17px;
+
+  color: black;
+  font-family: HelveticaRegular;
+  font-size: 15px;
+  font-weight: 700;
+
+  position: fixed;
+  top: 902px;
+  left: 253px;
+}
+
+#deal-2 {
+  margin: 0px;
+
+  width: 178px;
+  height: 17px;
+
+  color: black;
+  font-family: HelveticaRegular;
+  font-size: 15px;
+  font-weight: 700;
+
+  position: fixed;
+  top: 902px;
+  left: 565px;
+}
+
+#deal-3 {
+  margin: 0px;
+
+  width: 178px;
+  height: 17px;
+
+  color: black;
+  font-family: HelveticaRegular;
+  font-size: 15px;
+  font-weight: 700;
+
+  position: fixed;
+  top: 902px;
+  left: 877px;
+}
+
+#dealer-item-2 {
+  display: grid;
+
+  width: 1px;
+  height: 581px;
+}
+
+.footer-site
+{
+  margin: 0px;
+
+  width: 348px;
+  height: 38px;
+
+  position: fixed;
+  top: 1538px;
+  left: 525px;
+}
+
+#footer-context
+{
+  margin: 0px;
+
+  color: #959595;
+  font-family: HelveticaRegular;
+  font-size: 13px;
+  text-align: center;
+}
